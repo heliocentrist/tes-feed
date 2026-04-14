@@ -5,6 +5,26 @@ import json
 import html
 from datetime import datetime, timezone
 from pathlib import Path
+from email.utils import parsedate_to_datetime
+
+
+def parse_date(date_str):
+    """Parse various date formats into datetime, return epoch 0 on failure"""
+    if not date_str:
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+    try:
+        return parsedate_to_datetime(date_str)
+    except Exception:
+        pass
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d"):
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except Exception:
+            continue
+    return datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 FEED_JSON = Path(__file__).parent / "feed.json"
 OUTPUT_XML = Path(__file__).parent / "public" / "feed.xml"
@@ -16,13 +36,13 @@ def escape(s):
 def generate_rss(data):
     items_xml = []
     # Sort by date, newest first
-    sorted_items = sorted(data["items"], key=lambda x: x.get("date", ""), reverse=True)
-    
+    sorted_items = sorted(data["items"], key=lambda x: parse_date(x.get("date", "")), reverse=True)
+
     for item in sorted_items[:200]:  # Cap at 200 items
         desc = item.get("summary", item.get("description", ""))
         source = item.get("source", "")
         source_tag = f"<source>{escape(source)}</source>" if source else ""
-        
+
         items_xml.append(f"""    <item>
       <title>{escape(item.get('title', 'Untitled'))}</title>
       <link>{escape(item.get('url', ''))}</link>
@@ -31,9 +51,9 @@ def generate_rss(data):
       <guid isPermaLink="true">{escape(item.get('url', ''))}</guid>
       {source_tag}
     </item>""")
-    
+
     now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
-    
+
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -47,8 +67,8 @@ def generate_rss(data):
 </rss>"""
 
 def generate_html(data):
-    sorted_items = sorted(data["items"], key=lambda x: x.get("date", ""), reverse=True)
-    
+    sorted_items = sorted(data["items"], key=lambda x: parse_date(x.get("date", "")), reverse=True)
+
     items_html = []
     for item in sorted_items[:200]:
         title = escape(item.get("title", "Untitled"))
@@ -56,27 +76,27 @@ def generate_html(data):
         summary = item.get("summary", "")
         date = item.get("date", "")
         source = escape(item.get("source", ""))
-        
+
         # Parse and format date
         try:
             dt = datetime.strptime(date, "%a, %d %b %Y %H:%M:%S %z")
             date_display = dt.strftime("%b %d, %Y")
         except:
             date_display = date[:10] if date else ""
-        
+
         source_html = f'<span class="source">{source}</span>' if source else ""
         summary_html = f'<p class="summary">{escape(summary[:300])}</p>' if summary else ""
-        
+
         items_html.append(f"""
       <article>
         <div class="meta">{date_display} {source_html}</div>
         <h2><a href="{url}" target="_blank" rel="noopener">{title}</a></h2>
         {summary_html}
       </article>""")
-    
+
     subs_count = len(data.get("subscriptions", []))
     items_count = len(data.get("items", []))
-    
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +106,7 @@ def generate_html(data):
 <link rel="alternate" type="application/rss+xml" title="{escape(data.get('title', ''))}" href="/feed.xml">
 <style>
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{ 
+body {{
   font-family: 'Courier New', monospace;
   background: #0a0a0a; color: #e0e0e0;
   max-width: 700px; margin: 0 auto; padding: 24px 16px;
@@ -122,11 +142,11 @@ h2 a:hover {{ color: #fff; }}
 
 def main():
     data = json.loads(FEED_JSON.read_text())
-    
+
     OUTPUT_XML.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_XML.write_text(generate_rss(data))
     OUTPUT_INDEX.write_text(generate_html(data))
-    
+
     print(f"Generated feed.xml ({len(data['items'])} items) and index.html")
 
 if __name__ == "__main__":

@@ -4,31 +4,15 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Tue, 14 Apr 2026 07:50:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:52:09 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Mitchell Hashimoto’s new way of writing code</title>
-      <link>https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto</link>
-      <description><![CDATA[Mitchell Hashimoto on building HashiCorp, navigating the cloud giants, and how AI agents have transformed his day-to-day engineering workflow.]]></description>
-      <pubDate>Wed, 25 Feb 2026 16:45:17 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>Building WhatsApp with Jean Lee</title>
-      <link>https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</link>
-      <description><![CDATA[Jean Lee, engineer #19 at WhatsApp, on scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering.]]></description>
-      <pubDate>Wed, 18 Mar 2026 17:20:22 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>From IDEs to AI Agents with Steve Yegge</title>
-      <link>https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</link>
-      <description><![CDATA[Steve Yegge on how AI is reshaping software engineering, the rise of &#8220;vibe coding,&#8221; and why developers must adapt to a rapidly changing craft.]]></description>
-      <pubDate>Wed, 11 Mar 2026 16:58:07 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</guid>
-      <source>The Pragmatic Engineer</source>
+      <title>Inside Meta&#x27;s Home Grown AI Analytics Agent</title>
+      <link>https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</link>
+      <description><![CDATA[Meta built an internal AI analytics agent that autonomously runs SQL queries, diagnoses metric drops, and traces root causes. Started as a hack by one data scientist, grew into a company-wide tool. The agent uses query history for context and can handle routine data analysis tasks that data scientists get asked repeatedly.]]></description>
+      <pubDate>Tue, 14 Apr 2026 07:04:54 +0000</pubDate>
+      <guid isPermaLink="true">https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</guid>
+      <source>Analytics at Meta (Medium)</source>
     </item>
     <item>
       <title>DHH’s new way of writing code</title>
@@ -39,11 +23,19 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
-      <title>Building Claude Code with Boris Cherny</title>
-      <link>https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</link>
-      <description><![CDATA[Claude Code creator Boris Cherny on building AI-powered coding tools, parallel agents, and how the engineer's role is evolving in an AI-first world.]]></description>
-      <pubDate>Wed, 04 Mar 2026 18:09:46 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</guid>
+      <title>Cycles of disruption in the tech industry: with software pioneers Kent Beck &amp; Martin Fowler</title>
+      <link>https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech</link>
+      <description><![CDATA[Parallels between technology shifts in the past decades and what we&#8217;re seeing with AI. Also: ways to avoid burnout when working with AI agents, TDD back in style, and more.]]></description>
+      <pubDate>Tue, 07 Apr 2026 16:27:53 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>The Pulse: Industry leaders return to coding with AI</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return</link>
+      <description><![CDATA[Mark Zuckerberg and Garry Tan join the trend of C-level folks jumping back into coding with AI. Also: a bad week for Claude Code and GitHub, and more]]></description>
+      <pubDate>Thu, 02 Apr 2026 16:29:36 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return</guid>
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
@@ -63,62 +55,6 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
-      <title>“How to be a 10x engineer” – interview with a standout dev</title>
-      <link>https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</link>
-      <description><![CDATA[An interview with an engineer with no public GitHub contributions, setting clear boundaries &#8211; and yet not having needed to apply for positions when searching for a job, because referrals found them]]></description>
-      <pubDate>Tue, 24 Mar 2026 18:26:06 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>The Future of Software Engineering with AI: Six Predictions</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai</link>
-      <description><![CDATA[Notes from The Pragmatic Summit and &#8216;The Future of Software Development&#8217; workshop]]></description>
-      <pubDate>Tue, 24 Feb 2026 16:54:20 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>Are AI agents actually slowing us down?</title>
-      <link>https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us</link>
-      <description><![CDATA[As more software engineers use AI agents daily, there&#8217;s also more sloppy software, outages, quality issues, and even a slowdown in shipping velocity. What&#8217;s happening, and how do we solve it?]]></description>
-      <pubDate>Tue, 17 Mar 2026 16:59:32 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>Inside Meta&#x27;s Home Grown AI Analytics Agent</title>
-      <link>https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</link>
-      <description><![CDATA[Meta built an internal AI analytics agent that autonomously runs SQL queries, diagnoses metric drops, and traces root causes. Started as a hack by one data scientist, grew into a company-wide tool. The agent uses query history for context and can handle routine data analysis tasks that data scientists get asked repeatedly.]]></description>
-      <pubDate>Tue, 14 Apr 2026 07:04:54 +0000</pubDate>
-      <guid isPermaLink="true">https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</guid>
-      <source>Analytics at Meta (Medium)</source>
-    </item>
-    <item>
-      <title>How Uber uses AI for development: inside look</title>
-      <link>https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</link>
-      <description><![CDATA[How Uber built Minion, Shepherd, uReview, and other internal agentic AI tools. Also, new challenges in rolling out AI tools, like more platform investment and growing concern about token costs]]></description>
-      <pubDate>Tue, 10 Mar 2026 19:23:06 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>Cycles of disruption in the tech industry: with software pioneers Kent Beck &amp; Martin Fowler</title>
-      <link>https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech</link>
-      <description><![CDATA[Parallels between technology shifts in the past decades and what we&#8217;re seeing with AI. Also: ways to avoid burnout when working with AI agents, TDD back in style, and more.]]></description>
-      <pubDate>Tue, 07 Apr 2026 16:27:53 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
-      <title>AI Tooling for Software Engineers in 2026</title>
-      <link>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</link>
-      <description><![CDATA[Claude Code dominates tool usage, leaders are more positive about AI than engineers, staff+ engineers are the biggest users of AI agents, and more. Exclusive data and analysis from 900+ respondents]]></description>
-      <pubDate>Tue, 03 Mar 2026 16:05:35 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</guid>
-      <source>The Pragmatic Engineer</source>
-    </item>
-    <item>
       <title>The Pulse: is GitHub still best for AI-native development?</title>
       <link>https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for</link>
       <description><![CDATA[Poor availability has dogged GitHub for months and raises questions about its status and focus. Plus, Microsoft promises Windows will not be &#8220;Microslop&#8221;, a massive LLM supply chain attack, and more]]></description>
@@ -127,11 +63,11 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
-      <title>The Pulse: Cloudflare rewrites Next.js as AI rewrites commercial open source</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs</link>
-      <description><![CDATA[An engineer at Cloudflare rewrote most of Vercel&#8217;s Next.js in one week with AI agents. It looks like a sign of how AI will disrupt existing moats and business models. Analysis]]></description>
-      <pubDate>Thu, 26 Feb 2026 17:10:28 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs</guid>
+      <title>“How to be a 10x engineer” – interview with a standout dev</title>
+      <link>https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</link>
+      <description><![CDATA[An interview with an engineer with no public GitHub contributions, setting clear boundaries &#8211; and yet not having needed to apply for positions when searching for a job, because referrals found them]]></description>
+      <pubDate>Tue, 24 Mar 2026 18:26:06 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview</guid>
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
@@ -143,11 +79,19 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
-      <title>The Pulse #162: Even fewer middle managers and more flexible teams?</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers</link>
-      <description><![CDATA[Also: Anthropic bans third-party devs while Codex embraces them, Peter Steinberger joins OpenAI, a lot more software gets created with AI, and more]]></description>
-      <pubDate>Thu, 19 Feb 2026 19:09:08 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers</guid>
+      <title>Building WhatsApp with Jean Lee</title>
+      <link>https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</link>
+      <description><![CDATA[Jean Lee, engineer #19 at WhatsApp, on scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering.]]></description>
+      <pubDate>Wed, 18 Mar 2026 17:20:22 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Are AI agents actually slowing us down?</title>
+      <link>https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us</link>
+      <description><![CDATA[As more software engineers use AI agents daily, there&#8217;s also more sloppy software, outages, quality issues, and even a slowdown in shipping velocity. What&#8217;s happening, and how do we solve it?]]></description>
+      <pubDate>Tue, 17 Mar 2026 16:59:32 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us</guid>
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
@@ -159,6 +103,22 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
+      <title>From IDEs to AI Agents with Steve Yegge</title>
+      <link>https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</link>
+      <description><![CDATA[Steve Yegge on how AI is reshaping software engineering, the rise of &#8220;vibe coding,&#8221; and why developers must adapt to a rapidly changing craft.]]></description>
+      <pubDate>Wed, 11 Mar 2026 16:58:07 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>How Uber uses AI for development: inside look</title>
+      <link>https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</link>
+      <description><![CDATA[How Uber built Minion, Shepherd, uReview, and other internal agentic AI tools. Also, new challenges in rolling out AI tools, like more platform investment and growing concern about token costs]]></description>
+      <pubDate>Tue, 10 Mar 2026 19:23:06 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
       <title>The Pulse: AWS region knocked offline by drone attack in historic first</title>
       <link>https://newsletter.pragmaticengineer.com/p/the-pulse-164</link>
       <description><![CDATA[Also: 40% job cuts at Block &#8220;not due to AI&#8221;, Antigravity bans reinforce Google&#8217;s disdain for paying customers, and more]]></description>
@@ -167,11 +127,51 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
-      <title>The Pulse: Industry leaders return to coding with AI</title>
-      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return</link>
-      <description><![CDATA[Mark Zuckerberg and Garry Tan join the trend of C-level folks jumping back into coding with AI. Also: a bad week for Claude Code and GitHub, and more]]></description>
-      <pubDate>Thu, 02 Apr 2026 16:29:36 GMT</pubDate>
-      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return</guid>
+      <title>Building Claude Code with Boris Cherny</title>
+      <link>https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</link>
+      <description><![CDATA[Claude Code creator Boris Cherny on building AI-powered coding tools, parallel agents, and how the engineer's role is evolving in an AI-first world.]]></description>
+      <pubDate>Wed, 04 Mar 2026 18:09:46 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>AI Tooling for Software Engineers in 2026</title>
+      <link>https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</link>
+      <description><![CDATA[Claude Code dominates tool usage, leaders are more positive about AI than engineers, staff+ engineers are the biggest users of AI agents, and more. Exclusive data and analysis from 900+ respondents]]></description>
+      <pubDate>Tue, 03 Mar 2026 16:05:35 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>The Pulse: Cloudflare rewrites Next.js as AI rewrites commercial open source</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs</link>
+      <description><![CDATA[An engineer at Cloudflare rewrote most of Vercel&#8217;s Next.js in one week with AI agents. It looks like a sign of how AI will disrupt existing moats and business models. Analysis]]></description>
+      <pubDate>Thu, 26 Feb 2026 17:10:28 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Mitchell Hashimoto’s new way of writing code</title>
+      <link>https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto</link>
+      <description><![CDATA[Mitchell Hashimoto on building HashiCorp, navigating the cloud giants, and how AI agents have transformed his day-to-day engineering workflow.]]></description>
+      <pubDate>Wed, 25 Feb 2026 16:45:17 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>The Future of Software Engineering with AI: Six Predictions</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai</link>
+      <description><![CDATA[Notes from The Pragmatic Summit and &#8216;The Future of Software Development&#8217; workshop]]></description>
+      <pubDate>Tue, 24 Feb 2026 16:54:20 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>The Pulse #162: Even fewer middle managers and more flexible teams?</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers</link>
+      <description><![CDATA[Also: Anthropic bans third-party devs while Codex embraces them, Peter Steinberger joins OpenAI, a lot more software gets created with AI, and more]]></description>
+      <pubDate>Thu, 19 Feb 2026 19:09:08 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers</guid>
       <source>The Pragmatic Engineer</source>
     </item>
   </channel>
