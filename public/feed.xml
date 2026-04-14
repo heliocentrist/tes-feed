@@ -4,8 +4,15 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Tue, 14 Apr 2026 07:02:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:04:58 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
-
+    <item>
+      <title>Inside Meta&#x27;s Home Grown AI Analytics Agent</title>
+      <link>https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</link>
+      <description><![CDATA[Meta built an internal AI analytics agent that autonomously runs SQL queries, diagnoses metric drops, and traces root causes. Started as a hack by one data scientist, grew into a company-wide tool. The agent uses query history for context and can handle routine data analysis tasks that data scientists get asked repeatedly.]]></description>
+      <pubDate>Tue, 14 Apr 2026 07:04:54 +0000</pubDate>
+      <guid isPermaLink="true">https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3</guid>
+      <source>Analytics at Meta (Medium)</source>
+    </item>
   </channel>
 </rss>

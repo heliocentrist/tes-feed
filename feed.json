@@ -2,6 +2,15 @@
   "title": "Yury's Reading List",
   "description": "Articles, posts, and blogs curated by Yury",
   "siteUrl": "https://reading.theelderscripts.com",
-  "items": [],
+  "items": [
+    {
+      "title": "Inside Meta's Home Grown AI Analytics Agent",
+      "url": "https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3",
+      "summary": "Meta built an internal AI analytics agent that autonomously runs SQL queries, diagnoses metric drops, and traces root causes. Started as a hack by one data scientist, grew into a company-wide tool. The agent uses query history for context and can handle routine data analysis tasks that data scientists get asked repeatedly.",
+      "date": "Tue, 14 Apr 2026 07:04:54 +0000",
+      "source": "Analytics at Meta (Medium)",
+      "auto": false
+    }
+  ],
   "subscriptions": []
 }
