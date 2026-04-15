@@ -178,6 +178,14 @@
       "date": "Tue, 14 Apr 2026 16:01:02 GMT",
       "source": "The Pragmatic Engineer",
       "auto": true
+    },
+    {
+      "title": "Mechanical sympathy",
+      "url": "https://vickiboykis.com/2026/04/13/mechanical-sympathy/",
+      "summary": "On the connection between good engineering and good product design. Truly good engineers understand the contract between creator and user. The concept of affordances, mechanical sympathy, and why understanding how your system is used matters as much as how it works.",
+      "date": "Sun, 13 Apr 2026 00:00:00 +0000",
+      "source": "Vicki Boykis",
+      "auto": false
     }
   ],
   "subscriptions": [
