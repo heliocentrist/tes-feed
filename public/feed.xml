@@ -4,8 +4,16 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Thu, 16 Apr 2026 06:09:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 18:02:16 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Pulse: ‘Tokenmaxxing’ as a weird new trend</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird</link>
+      <description><![CDATA[&#8230; which will probably be the shortest-lived trend because it&#8217;s so wasteful. Also: coding AI agent subsidies could be ending, Cal.com going closed source and blaming it on AI, and more.]]></description>
+      <pubDate>Thu, 16 Apr 2026 16:47:08 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
     <item>
       <title>Using Claude Code: session management and 1M context</title>
       <link>https://claude.com/blog/using-claude-code-session-management-and-1m-context</link>

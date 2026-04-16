@@ -194,6 +194,14 @@
       "date": "Thu, 16 Apr 2026 06:09:00 +0000",
       "source": "Anthropic",
       "auto": false
+    },
+    {
+      "title": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird",
+      "summary": "&#8230; which will probably be the shortest-lived trend because it&#8217;s so wasteful. Also: coding AI agent subsidies could be ending, Cal.com going closed source and blaming it on AI, and more.",
+      "date": "Thu, 16 Apr 2026 16:47:08 GMT",
+      "source": "The Pragmatic Engineer",
+      "auto": true
     }
   ],
   "subscriptions": [
