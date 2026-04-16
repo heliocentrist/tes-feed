@@ -186,6 +186,14 @@
       "date": "Wed, 15 Apr 2026 16:48:00 +0000",
       "source": "Vicki Boykis",
       "auto": false
+    },
+    {
+      "title": "Using Claude Code: session management and 1M context",
+      "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
+      "summary": "Anthropic on managing Claude Code sessions with the new 1M context window. Covers session strategies, when to compact vs start fresh, subagent usage, and the new /usage command. Lots of variance in how users manage sessions.",
+      "date": "Thu, 16 Apr 2026 06:09:00 +0000",
+      "source": "Anthropic",
+      "auto": false
     }
   ],
   "subscriptions": [

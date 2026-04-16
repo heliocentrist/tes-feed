@@ -4,8 +4,16 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Wed, 15 Apr 2026 17:14:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 06:09:33 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Using Claude Code: session management and 1M context</title>
+      <link>https://claude.com/blog/using-claude-code-session-management-and-1m-context</link>
+      <description><![CDATA[Anthropic on managing Claude Code sessions with the new 1M context window. Covers session strategies, when to compact vs start fresh, subagent usage, and the new /usage command. Lots of variance in how users manage sessions.]]></description>
+      <pubDate>Thu, 16 Apr 2026 06:09:00 +0000</pubDate>
+      <guid isPermaLink="true">https://claude.com/blog/using-claude-code-session-management-and-1m-context</guid>
+      <source>Anthropic</source>
+    </item>
     <item>
       <title>Mechanical sympathy</title>
       <link>https://vickiboykis.com/2026/04/13/mechanical-sympathy/</link>
