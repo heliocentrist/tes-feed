@@ -4,8 +4,16 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Thu, 16 Apr 2026 18:02:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 18:23:21 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why Your Agents Can&#x27;t Read Enterprise Documents — and How to Fix It</title>
+      <link>https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it</link>
+      <description><![CDATA[Databricks on why frontier AI agents break down on real enterprise documents: scanned PDFs, messy layouts, mixed formats. IDP (Intelligent Document Processing) is the critical foundation for agentic workflows. Agents handle reasoning fine but can't read the documents they need to reason about.]]></description>
+      <pubDate>Sat, 18 Apr 2026 18:22:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it</guid>
+      <source>Databricks</source>
+    </item>
     <item>
       <title>The Pulse: ‘Tokenmaxxing’ as a weird new trend</title>
       <link>https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird</link>

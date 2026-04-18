@@ -202,6 +202,14 @@
       "date": "Thu, 16 Apr 2026 16:47:08 GMT",
       "source": "The Pragmatic Engineer",
       "auto": true
+    },
+    {
+      "title": "Why Your Agents Can't Read Enterprise Documents — and How to Fix It",
+      "url": "https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it",
+      "summary": "Databricks on why frontier AI agents break down on real enterprise documents: scanned PDFs, messy layouts, mixed formats. IDP (Intelligent Document Processing) is the critical foundation for agentic workflows. Agents handle reasoning fine but can't read the documents they need to reason about.",
+      "date": "Sat, 18 Apr 2026 18:22:00 +0000",
+      "source": "Databricks",
+      "auto": false
     }
   ],
   "subscriptions": [
