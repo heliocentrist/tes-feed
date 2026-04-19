@@ -210,6 +210,14 @@
       "date": "Sat, 18 Apr 2026 18:22:00 +0000",
       "source": "Databricks",
       "auto": false
+    },
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "summary": "OpenAI built and shipped an internal product with 0 lines of manually-written code. Every line — app logic, tests, CI, docs, observability — written by Codex. Estimated 1/10th the time of hand-written code. Humans steer, agents execute.",
+      "date": "Sun, 19 Apr 2026 08:03:00 +0000",
+      "source": "OpenAI",
+      "auto": false
     }
   ],
   "subscriptions": [

@@ -4,8 +4,16 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Sat, 18 Apr 2026 18:23:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 08:04:24 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Harness engineering: leveraging Codex in an agent-first world</title>
+      <link>https://openai.com/index/harness-engineering/</link>
+      <description><![CDATA[OpenAI built and shipped an internal product with 0 lines of manually-written code. Every line — app logic, tests, CI, docs, observability — written by Codex. Estimated 1/10th the time of hand-written code. Humans steer, agents execute.]]></description>
+      <pubDate>Sun, 19 Apr 2026 08:03:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/harness-engineering/</guid>
+      <source>OpenAI</source>
+    </item>
     <item>
       <title>Why Your Agents Can&#x27;t Read Enterprise Documents — and How to Fix It</title>
       <link>https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it</link>
