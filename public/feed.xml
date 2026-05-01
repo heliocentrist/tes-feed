@@ -4,8 +4,56 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Sun, 19 Apr 2026 08:04:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 02:02:19 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Pulse: AI load breaks GitHub – why not other vendors?</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks</link>
+      <description><![CDATA[Also: Anthropic&#8217;s speed run to break devs&#8217; goodwill, big price increases from GitHub Copilot, Mitchell Hashimoto on the &#8220;building block economy,&#8221; and more]]></description>
+      <pubDate>Thu, 30 Apr 2026 14:23:43 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Building Pi, and what makes self-modifying software so fascinating</title>
+      <link>https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying</link>
+      <description><![CDATA[Mario Zechner, creator of Pi, joins Armin Ronacher to explore AI coding&#8217;s limits, arguing that human judgment still matters most in an agent-driven world.]]></description>
+      <pubDate>Wed, 29 Apr 2026 14:30:17 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>How will AI change operating systems? Part 1: Ubuntu and Linux</title>
+      <link>https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai</link>
+      <description><![CDATA[A deepdive with the Canonical team into how AI is changing Ubuntu, why they&#8217;re betting on local-first LLMs, and a look into other Linux distributions]]></description>
+      <pubDate>Tue, 28 Apr 2026 14:25:18 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>The Pulse: AI token spending out of control – what’s next?</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of</link>
+      <description><![CDATA[Details from 15 tech companies on the rapid growth of token spend, and their responses to it. Also: AI vendors can&#8217;t keep up with demand, plummeting morale at Meta, and more.]]></description>
+      <pubDate>Thu, 23 Apr 2026 16:51:01 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Designing Data-intensive Applications with Martin Kleppmann</title>
+      <link>https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications</link>
+      <description><![CDATA[Martin Kleppmann on scaling, his updated Designing Data-Intensive Applications, and what&#8217;s next for AI-era systems.]]></description>
+      <pubDate>Wed, 22 Apr 2026 16:19:26 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Learnings from conducting ~1,000 interviews at Amazon</title>
+      <link>https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews</link>
+      <description><![CDATA[Steve Huynh, formerly Principal Engineer at Amazon, shares observations from 10+ years of interviewing software engineers, and an excerpt from his new book, Technical Behavioral Interview]]></description>
+      <pubDate>Tue, 21 Apr 2026 12:49:16 GMT</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews</guid>
+      <source>The Pragmatic Engineer</source>
+    </item>
     <item>
       <title>Harness engineering: leveraging Codex in an agent-first world</title>
       <link>https://openai.com/index/harness-engineering/</link>
