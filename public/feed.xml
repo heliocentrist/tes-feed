@@ -4,8 +4,16 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles, posts, and blogs curated by Yury</description>
-    <lastBuildDate>Fri, 01 May 2026 02:02:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:43:29 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Held Up at 3 AM: One Engineer&#x27;s RAG Case Study</title>
+      <link>https://www.decodingai.com/p/ship-rag-with-weave-cli?r=4pz80&amp;utm_medium=ios&amp;triedRedirect=true</link>
+      <description><![CDATA[Ship RAG with Weave CLI: Opik traces, an LLM-judge eval harness, and config-driven swaps across 11 vector databases, chunking, and agents.]]></description>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.decodingai.com/p/ship-rag-with-weave-cli?r=4pz80&amp;utm_medium=ios&amp;triedRedirect=true</guid>
+      <source>Foam Notes</source>
+    </item>
     <item>
       <title>The Pulse: AI load breaks GitHub – why not other vendors?</title>
       <link>https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks</link>
@@ -13,6 +21,38 @@
       <pubDate>Thu, 30 Apr 2026 14:23:43 GMT</pubDate>
       <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks</guid>
       <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Company Brain: Why Most Companies Have Data But No Memory</title>
+      <link>https://x.com/ashwingop/status/2049641901410955694</link>
+      <description><![CDATA[One of the hardest parts of any organization is institutional friction. Conversations lose context. Meetings create ambiguous follow-ups. Pe...]]></description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/ashwingop/status/2049641901410955694</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Guardians of the Agents</title>
+      <link>https://cacm.acm.org/practice/guardians-of-the-agents/</link>
+      <description><![CDATA[Agentic applications—AI systems empowered to take autonomous actions by calling external tools—are the current rage in software development. They promise efficiency, convenience, and reduced human intervention. Giving autonomous agents access to tools with potentially irreversible side effects, however, comes with significant risks. These dangers can originate from adversarial models trying to optimize their objectives literally (e.g., maximizing the number of paper clips at the expense of human]]></description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://cacm.acm.org/practice/guardians-of-the-agents/</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>A forty-year career.</title>
+      <link>https://lethain.com/forty-year-career/</link>
+      <description><![CDATA[The Silicon Valley narrative centers on entrepreneurial protagonists who are poised one predestined step away from changing the world. A decade ago they were heroes, and more recently they’ve become villains, but either way they are absolutely the protagonists. Working within the industry, I’ve worked with quite a few non-protagonists who experience their time in technology differently: a period of obligatory toil required to pry open the gate to the American Dream.]]></description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://lethain.com/forty-year-career/</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Sizing engineering teams.</title>
+      <link>https://lethain.com/sizing-engineering-teams/</link>
+      <description><![CDATA[I’ve come to believe that most organizational design questions can be answered by recursively applying a framework for sizing teams. Over the past year I’ve refined my approach to team sizing into a bit of a framework, and even changed my mind on several aspects, especially the viability of small teams. This post describes how I now size teams]]></description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://lethain.com/sizing-engineering-teams/</guid>
+      <source>Foam Notes</source>
     </item>
     <item>
       <title>Building Pi, and what makes self-modifying software so fascinating</title>
@@ -47,12 +87,68 @@
       <source>The Pragmatic Engineer</source>
     </item>
     <item>
+      <title>How LiteParse&#x27;s Grid Projection Algorithm Parses PDFs</title>
+      <link>https://www.llamaindex.ai/blog/how-liteparse-turns-pdfs-into-text-a-deep-dive-into-the-grid-projection-algorithm?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</link>
+      <description><![CDATA[A deep dive into LiteParse's grid projection algorithm — how it extracts text from PDFs while preserving tables, columns, and alignment. Open source.]]></description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.llamaindex.ai/blog/how-liteparse-turns-pdfs-into-text-a-deep-dive-into-the-grid-projection-algorithm?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>There Are Only 6 RAG Evals</title>
+      <link>https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/</link>
+      <description><![CDATA[There are only 6 fundamental ways to evaluate a RAG system. Here's how to do it.]]></description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge)</title>
+      <link>https://eugeneyan.com/writing/llm-evaluators/</link>
+      <description><![CDATA[Use cases, techniques, alignment, finetuning, and critiques against LLM-evaluators.]]></description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://eugeneyan.com/writing/llm-evaluators/</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Demystifying evals for AI agents</title>
+      <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
+      <description><![CDATA[Good evaluations help teams ship AI agents more confidently. Without them, it’s easy to get stuck in reactive loops—catching issues only in production, where fixing one failure creates others. Evals make problems and behavioral changes visible before they affect users, and their value compounds over the lifecycle of an agent.]]></description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
       <title>Learnings from conducting ~1,000 interviews at Amazon</title>
       <link>https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews</link>
       <description><![CDATA[Steve Huynh, formerly Principal Engineer at Amazon, shares observations from 10+ years of interviewing software engineers, and an excerpt from his new book, Technical Behavioral Interview]]></description>
       <pubDate>Tue, 21 Apr 2026 12:49:16 GMT</pubDate>
       <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews</guid>
       <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Metadata: the 3rd kind of retrieval</title>
+      <link>https://softwaredoug.com/blog/2026/04/21/metadata-the-3rd-kind-of-retrieval</link>
+      <description><![CDATA[In search we talk about lexical embedding retrieval But we miss another retrieval philosophy metadata And with LLMs its never...]]></description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://softwaredoug.com/blog/2026/04/21/metadata-the-3rd-kind-of-retrieval</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Approaches to tenancy in Postgres</title>
+      <link>https://planetscale.com/blog/approaches-to-tenancy-in-postgres</link>
+      <description><![CDATA[There are many ways to slice a Postgres database for multi-tenant applications. Let's look at the three most common approaches and the trade-offs.]]></description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://planetscale.com/blog/approaches-to-tenancy-in-postgres</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Language Models are Injectiveand Hence Invertible</title>
+      <link>https://arxiv.org/html/2510.15511v4</link>
+      <description><![CDATA[Giorgos Nikolaou <sup>1,5,</sup> Tommaso Mencattini <sup>1,2,∗</sup> Donato Crisostomi <sup>2</sup>  Andrea Santilli <sup>2</sup>  Yannis Panagakis <sup>4,5</sup>  Emanuele Rodolà <sup>2,3</sup>]]></description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/html/2510.15511v4</guid>
+      <source>Foam Notes</source>
     </item>
     <item>
       <title>Harness engineering: leveraging Codex in an agent-first world</title>
@@ -111,6 +207,102 @@
       <source>Analytics at Meta (Medium)</source>
     </item>
     <item>
+      <title>Late interaction models: How to scale &amp; optimize in Elasticsearch</title>
+      <link>https://www.elastic.co/search-labs/blog/late-interaction-model-colpali-scale</link>
+      <description><![CDATA[Explore techniques to scale late interaction models like ColPali for large-scale vector search in Elasticsearch.]]></description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.elastic.co/search-labs/blog/late-interaction-model-colpali-scale</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>ColPali &amp; Elasticsearch: How to search complex documents</title>
+      <link>https://www.elastic.co/search-labs/blog/elastiacsearch-colpali-document-search#key-takeaways-on-colpali-in-elasticsearch</link>
+      <description><![CDATA[Learn about ColPali and explore how to use it to search through complex documents in Elasticsearch, including tables, figures, multiple columns & more.]]></description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.elastic.co/search-labs/blog/elastiacsearch-colpali-document-search#key-takeaways-on-colpali-in-elasticsearch</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Unsupervised document clustering with Elasticsearch + Jina embeddings</title>
+      <link>https://www.elastic.co/search-labs/blog/unsupervised-document-clustering-elasticsearch-jina-embeddings</link>
+      <description><![CDATA[A practical, reproducible approach to unsupervised document clustering with Elasticsearch and Jina embeddings.]]></description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.elastic.co/search-labs/blog/unsupervised-document-clustering-elasticsearch-jina-embeddings</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</title>
+      <link>https://arxiv.org/html/2602.02007v2</link>
+      <description><![CDATA[Zhanghao Hu    Qinglin Zhu    Hanqi Yan    Yulan He    Lin Gui]]></description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/html/2602.02007v2</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Benchmarking AI Agent Memory: Is a Filesystem All You Need?</title>
+      <link>https://www.letta.com/blog/benchmarking-ai-agent-memory</link>
+      <description><![CDATA[Letta Filesystem scores 74.0% of the LoCoMo benchmark by simply storing conversational histories in a file, beating out specialized memory tool libraries.]]></description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.letta.com/blog/benchmarking-ai-agent-memory</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context</title>
+      <link>https://arxiv.org/html/2604.01599v1</link>
+      <description><![CDATA[Andy Nguyen <sup>1</sup>, Danh Doan <sup>1</sup>, Hoang Pham <sup>1</sup>, Bao Ha <sup>1</sup>, Dat Pham <sup>1</sup>, Linh Nguyen <sup>1</sup>,]]></description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/html/2604.01599v1</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>The Price of Meaning: Why RAG, Knowledge Graphs, and Every Semantic Memory Will Always Fail</title>
+      <link>https://x.com/ashwingop/status/2042604890988646750</link>
+      <description><![CDATA[TL;DRForgetting and false recall are mathematically, provably, inevitable for any memory system that organises information by meaning. Not j...]]></description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/ashwingop/status/2042604890988646750</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen</title>
+      <link>https://weaviate.io/blog/late-interaction-overview</link>
+      <description><![CDATA[Late interaction allow for semantically rich interactions that enable a precise retrieval process across different modalities of unstructured data, including text and images.]]></description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://weaviate.io/blog/late-interaction-overview</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Geometry of Forgetting: Why Brains and LLMs Fail EXACTLY the Same Way</title>
+      <link>https://x.com/ashwingop/status/2042091130213560759</link>
+      <description><![CDATA[TL;DRMemory systems for LLMs forget EXACTLY like humans, reproducing the exact numbers from some of the most replicated experiments in clini...]]></description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/ashwingop/status/2042091130213560759</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Giving AI Agents the Document Understanding Layer They&#x27;ve Been Missing</title>
+      <link>https://www.llamaindex.ai/blog/beyond-raw-text-how-llamaparse-and-liteparse-give-agents-real-document-understanding?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</link>
+      <description><![CDATA[Most agent runtimes reduce complex documents to garbled text, degrading every downstream task. LlamaParse and LiteParse are installable agent skills that deliver structured, layout-aware, multimodal document parsing — locally or via cloud — so agents can finally reason over real enterprise documents.]]></description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.llamaindex.ai/blog/beyond-raw-text-how-llamaparse-and-liteparse-give-agents-real-document-understanding?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Introducing Context Repositories: Git-based Memory for Coding Agents</title>
+      <link>https://www.letta.com/blog/context-repositories</link>
+      <description><![CDATA[We're introducing Context Repositories, a rebuild of how memory works in Letta Code based on programmatic context management and git-based versioning.]]></description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.letta.com/blog/context-repositories</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Engineering Insights: Failure Modes That Break VLM-Powered OCR in Production</title>
+      <link>https://www.llamaindex.ai/blog/engineering-insights-failure-modes-that-break-vlm-powered-ocr-in-production?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</link>
+      <description><![CDATA[Two hidden LLM failure modes that break agentic document ingestion pipelines in production: repetition loops exhaust resources while recitation filters block legitimate tasks. Learn how to detect, handle, and mitigate both across OpenAI, Anthropic, and Gemini APIs.]]></description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.llamaindex.ai/blog/engineering-insights-failure-modes-that-break-vlm-powered-ocr-in-production?utm_medium=socials&amp;utm_source=twitter&amp;utm_campaign=2026-apr-</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
       <title>DHH’s new way of writing code</title>
       <link>https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code</link>
       <description><![CDATA[David Heinemeier Hansson shares why he shifted to an agent-first AI workflow, and what it means for how software is built and who builds it.]]></description>
@@ -125,6 +317,70 @@
       <pubDate>Tue, 07 Apr 2026 16:27:53 GMT</pubDate>
       <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech</guid>
       <source>The Pragmatic Engineer</source>
+    </item>
+    <item>
+      <title>Database retrieval tools for context engineering</title>
+      <link>https://www.elastic.co/search-labs/blog/database-retrieval-tools-context-engineering</link>
+      <description><![CDATA[Best practices for writing database retrieval tools for context engineering. Learn how to design and evaluate agent tools for interacting with Elasticsearch data.]]></description>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.elastic.co/search-labs/blog/database-retrieval-tools-context-engineering</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Commits · milla-jovovich/mempalace</title>
+      <link>https://github.com/milla-jovovich/mempalace</link>
+      <description><![CDATA[The highest-scoring AI memory system ever benchmarked. And it's free. - Commits · milla-jovovich/mempalace]]></description>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/milla-jovovich/mempalace</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>How we built a virtual filesystem for our Assistant</title>
+      <link>https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant</link>
+      <description><![CDATA[We replaced expensive sandboxes with ChromaFs, a virtual filesystem over Chroma, to give our docs AI assistant the ability to explore documentation like a developer would.]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Harnessing Claude&#x27;s Intelligence | 3 Key Patterns for Building Apps</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <description><![CDATA[Three patterns for building on the Claude Platform that keep pace with Claude's evolving intelligence while balancing latency and cost.]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Components of A Coding Agent</title>
+      <link>https://magazine.sebastianraschka.com/p/components-of-a-coding-agent?hide_intro_popup=true</link>
+      <description><![CDATA[How coding agents use tools, memory, and repo context to make LLMs work better in practice]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://magazine.sebastianraschka.com/p/components-of-a-coding-agent?hide_intro_popup=true</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>FUSE — The Linux Kernel  documentation</title>
+      <link>https://www.kernel.org/doc/html/next/filesystems/fuse.html</link>
+      <description><![CDATA[Userspace filesystem:]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.kernel.org/doc/html/next/filesystems/fuse.html</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>Lessons from Building Claude Code: Seeing like an Agent</title>
+      <link>https://x.com/trq212/status/2027463795355095314</link>
+      <description><![CDATA[One of the hardest parts of building an agent harness is constructing its action space.Claude acts through Tool Calling, but there are a num...]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/trq212/status/2027463795355095314</guid>
+      <source>Foam Notes</source>
+    </item>
+    <item>
+      <title>A folk musician became a target for AI fakes and a copyright troll</title>
+      <link>https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright</link>
+      <description><![CDATA[Murphy Campbell has an AI imposter on Spotify and troll claiming copyright of her performances of public domain ballads on YouTube.]]></description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright</guid>
+      <source>Foam Notes</source>
     </item>
     <item>
       <title>The Pulse: Industry leaders return to coding with AI</title>
