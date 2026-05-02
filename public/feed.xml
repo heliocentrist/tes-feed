@@ -4,7 +4,7 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles and sources curated by Yury from foam-notes</description>
-    <lastBuildDate>Sat, 02 May 2026 07:46:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 10:03:51 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>What Held Up at 3 AM: One Engineer&#x27;s RAG Case Study</title>
@@ -109,6 +109,14 @@
       <pubDate>Sun, 19 Apr 2026 08:03:00 +0000</pubDate>
       <guid isPermaLink="true">https://openai.com/index/harness-engineering/</guid>
       <source>OpenAI</source>
+    </item>
+    <item>
+      <title>The impact of AI on software engineers in 2026: key trends</title>
+      <link>https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026</link>
+      <description><![CDATA[Our AI tooling survey finds concerns about mounting AI costs, more engineers hitting usage limits, and AI tools having uneven effects upon different types of engineers]]></description>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026</guid>
+      <source>Foam Notes</source>
     </item>
     <item>
       <title>Why Your Agents Can&#x27;t Read Enterprise Documents — and How to Fix It</title>
