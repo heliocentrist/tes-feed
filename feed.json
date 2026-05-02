@@ -1,6 +1,6 @@
 {
   "title": "Yury's Reading List",
-  "description": "Articles, posts, and blogs curated by Yury",
+  "description": "Articles and sources curated by Yury from foam-notes",
   "siteUrl": "https://reading.theelderscripts.com",
   "items": [
     {
@@ -10,174 +10,6 @@
       "date": "Tue, 14 Apr 2026 07:04:54 +0000",
       "source": "Analytics at Meta (Medium)",
       "auto": false
-    },
-    {
-      "title": "DHH’s new way of writing code",
-      "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
-      "summary": "David Heinemeier Hansson shares why he shifted to an agent-first AI workflow, and what it means for how software is built and who builds it.",
-      "date": "Wed, 08 Apr 2026 17:16:28 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Cycles of disruption in the tech industry: with software pioneers Kent Beck & Martin Fowler",
-      "url": "https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech",
-      "summary": "Parallels between technology shifts in the past decades and what we&#8217;re seeing with AI. Also: ways to avoid burnout when working with AI agents, TDD back in style, and more.",
-      "date": "Tue, 07 Apr 2026 16:27:53 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: Industry leaders return to coding with AI",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return",
-      "summary": "Mark Zuckerberg and Garry Tan join the trend of C-level folks jumping back into coding with AI. Also: a bad week for Claude Code and GitHub, and more",
-      "date": "Thu, 02 Apr 2026 16:29:36 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
-      "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
-      "summary": "Thuan Pham (Uber's first CTO) on scaling Uber from constant outages to global infrastructure, the shift to microservices and platform teams, and how AI is reshaping engineering.",
-      "date": "Wed, 01 Apr 2026 16:49:59 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "What is inference engineering? Deepdive",
-      "url": "https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering",
-      "summary": "Many engineers use inference daily, but inference engineering is a bit obscure &#8211; and an area rich with interesting challenges. Philip Kiely, author of the new book, &#8220;Inference Engineering,&#8221; explains",
-      "date": "Tue, 31 Mar 2026 17:01:00 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: is GitHub still best for AI-native development?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for",
-      "summary": "Poor availability has dogged GitHub for months and raises questions about its status and focus. Plus, Microsoft promises Windows will not be &#8220;Microslop&#8221;, a massive LLM supply chain attack, and more",
-      "date": "Thu, 26 Mar 2026 17:23:07 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "“How to be a 10x engineer” – interview with a standout dev",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-to-be-a-10x-engineer-interview",
-      "summary": "An interview with an engineer with no public GitHub contributions, setting clear boundaries &#8211; and yet not having needed to apply for positions when searching for a job, because referrals found them",
-      "date": "Tue, 24 Mar 2026 18:26:06 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: Is the FDE role becoming less desirable?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-the-fde-role-becoming",
-      "summary": "Also: AI-agent generated pull requests cause headaches for large open source projects, OpenAI acquires the creator of uv, a sudden Cursor price hike annoys some enterprise customers, and more",
-      "date": "Thu, 19 Mar 2026 17:45:52 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Building WhatsApp with Jean Lee",
-      "url": "https://newsletter.pragmaticengineer.com/p/building-whatsapp-with-jean-lee",
-      "summary": "Jean Lee, engineer #19 at WhatsApp, on scaling the app with a tiny team, the Facebook acquisition, and what it reveals about the future of engineering.",
-      "date": "Wed, 18 Mar 2026 17:20:22 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Are AI agents actually slowing us down?",
-      "url": "https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us",
-      "summary": "As more software engineers use AI agents daily, there&#8217;s also more sloppy software, outages, quality issues, and even a slowdown in shipping velocity. What&#8217;s happening, and how do we solve it?",
-      "date": "Tue, 17 Mar 2026 16:59:32 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: What will the Staff Engineer role look like in 2027 and beyond?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-will-the-staff-engineer",
-      "summary": "Also: new trend of token costs becoming a worry for CTOs, 10% cuts at Atlassian, and more.",
-      "date": "Thu, 12 Mar 2026 17:46:41 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "From IDEs to AI Agents with Steve Yegge",
-      "url": "https://newsletter.pragmaticengineer.com/p/from-ides-to-ai-agents-with-steve",
-      "summary": "Steve Yegge on how AI is reshaping software engineering, the rise of &#8220;vibe coding,&#8221; and why developers must adapt to a rapidly changing craft.",
-      "date": "Wed, 11 Mar 2026 16:58:07 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "How Uber uses AI for development: inside look",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-uber-uses-ai-for-development",
-      "summary": "How Uber built Minion, Shepherd, uReview, and other internal agentic AI tools. Also, new challenges in rolling out AI tools, like more platform investment and growing concern about token costs",
-      "date": "Tue, 10 Mar 2026 19:23:06 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: AWS region knocked offline by drone attack in historic first",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-164",
-      "summary": "Also: 40% job cuts at Block &#8220;not due to AI&#8221;, Antigravity bans reinforce Google&#8217;s disdain for paying customers, and more",
-      "date": "Thu, 05 Mar 2026 17:54:22 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Building Claude Code with Boris Cherny",
-      "url": "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny",
-      "summary": "Claude Code creator Boris Cherny on building AI-powered coding tools, parallel agents, and how the engineer's role is evolving in an AI-first world.",
-      "date": "Wed, 04 Mar 2026 18:09:46 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "AI Tooling for Software Engineers in 2026",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
-      "summary": "Claude Code dominates tool usage, leaders are more positive about AI than engineers, staff+ engineers are the biggest users of AI agents, and more. Exclusive data and analysis from 900+ respondents",
-      "date": "Tue, 03 Mar 2026 16:05:35 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: Cloudflare rewrites Next.js as AI rewrites commercial open source",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-164-nextjs",
-      "summary": "An engineer at Cloudflare rewrote most of Vercel&#8217;s Next.js in one week with AI agents. It looks like a sign of how AI will disrupt existing moats and business models. Analysis",
-      "date": "Thu, 26 Feb 2026 17:10:28 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Mitchell Hashimoto’s new way of writing code",
-      "url": "https://newsletter.pragmaticengineer.com/p/mitchell-hashimoto",
-      "summary": "Mitchell Hashimoto on building HashiCorp, navigating the cloud giants, and how AI agents have transformed his day-to-day engineering workflow.",
-      "date": "Wed, 25 Feb 2026 16:45:17 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Future of Software Engineering with AI: Six Predictions",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-future-of-software-engineering-with-ai",
-      "summary": "Notes from The Pragmatic Summit and &#8216;The Future of Software Development&#8217; workshop",
-      "date": "Tue, 24 Feb 2026 16:54:20 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse #162: Even fewer middle managers and more flexible teams?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-162-even-fewer-middle-managers",
-      "summary": "Also: Anthropic bans third-party devs while Codex embraces them, Peter Steinberger joins OpenAI, a lot more software gets created with AI, and more",
-      "date": "Thu, 19 Feb 2026 19:09:08 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The impact of AI on software engineers in 2026: key trends",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
-      "summary": "Our AI tooling survey finds concerns about mounting AI costs, more engineers hitting usage limits, and AI tools having uneven effects upon different types of engineers",
-      "date": "Tue, 14 Apr 2026 16:01:02 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
     },
     {
       "title": "Mechanical sympathy",
@@ -196,14 +28,6 @@
       "auto": false
     },
     {
-      "title": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird",
-      "summary": "&#8230; which will probably be the shortest-lived trend because it&#8217;s so wasteful. Also: coding AI agent subsidies could be ending, Cal.com going closed source and blaming it on AI, and more.",
-      "date": "Thu, 16 Apr 2026 16:47:08 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
       "title": "Why Your Agents Can't Read Enterprise Documents — and How to Fix It",
       "url": "https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it",
       "summary": "Databricks on why frontier AI agents break down on real enterprise documents: scanned PDFs, messy layouts, mixed formats. IDP (Intelligent Document Processing) is the critical foundation for agentic workflows. Agents handle reasoning fine but can't read the documents they need to reason about.",
@@ -218,54 +42,6 @@
       "date": "Sun, 19 Apr 2026 08:03:00 +0000",
       "source": "OpenAI",
       "auto": false
-    },
-    {
-      "title": "The Pulse: AI load breaks GitHub – why not other vendors?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks",
-      "summary": "Also: Anthropic&#8217;s speed run to break devs&#8217; goodwill, big price increases from GitHub Copilot, Mitchell Hashimoto on the &#8220;building block economy,&#8221; and more",
-      "date": "Thu, 30 Apr 2026 14:23:43 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Building Pi, and what makes self-modifying software so fascinating",
-      "url": "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying",
-      "summary": "Mario Zechner, creator of Pi, joins Armin Ronacher to explore AI coding&#8217;s limits, arguing that human judgment still matters most in an agent-driven world.",
-      "date": "Wed, 29 Apr 2026 14:30:17 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "How will AI change operating systems? Part 1: Ubuntu and Linux",
-      "url": "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai",
-      "summary": "A deepdive with the Canonical team into how AI is changing Ubuntu, why they&#8217;re betting on local-first LLMs, and a look into other Linux distributions",
-      "date": "Tue, 28 Apr 2026 14:25:18 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "The Pulse: AI token spending out of control – what’s next?",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-ai-token-spending-out-of",
-      "summary": "Details from 15 tech companies on the rapid growth of token spend, and their responses to it. Also: AI vendors can&#8217;t keep up with demand, plummeting morale at Meta, and more.",
-      "date": "Thu, 23 Apr 2026 16:51:01 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Designing Data-intensive Applications with Martin Kleppmann",
-      "url": "https://newsletter.pragmaticengineer.com/p/designing-data-intensive-applications",
-      "summary": "Martin Kleppmann on scaling, his updated Designing Data-Intensive Applications, and what&#8217;s next for AI-era systems.",
-      "date": "Wed, 22 Apr 2026 16:19:26 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
-    },
-    {
-      "title": "Learnings from conducting ~1,000 interviews at Amazon",
-      "url": "https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews",
-      "summary": "Steve Huynh, formerly Principal Engineer at Amazon, shares observations from 10+ years of interviewing software engineers, and an excerpt from his new book, Technical Behavioral Interview",
-      "date": "Tue, 21 Apr 2026 12:49:16 GMT",
-      "source": "The Pragmatic Engineer",
-      "auto": true
     },
     {
       "title": "What Held Up at 3 AM: One Engineer's RAG Case Study",
@@ -524,10 +300,5 @@
       "auto": false
     }
   ],
-  "subscriptions": [
-    {
-      "name": "The Pragmatic Engineer",
-      "url": "https://newsletter.pragmaticengineer.com/feed"
-    }
-  ]
+  "subscriptions": []
 }

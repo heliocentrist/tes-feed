@@ -94,7 +94,8 @@ def generate_html(data):
         {summary_html}
       </article>""")
 
-    subs_count = len(data.get("subscriptions", []))
+# Removed: manual items only (foam-notes + explicit adds), no subscriptions
+    subs_count = 0
     items_count = len(data.get("items", []))
 
     return f"""<!DOCTYPE html>
