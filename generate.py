@@ -94,8 +94,7 @@ def generate_html(data):
         {summary_html}
       </article>""")
 
-# Removed: manual items only (foam-notes + explicit adds), no subscriptions
-    subs_count = 0
+    # Removed: subscriptions no longer used
     items_count = len(data.get("items", []))
 
     return f"""<!DOCTYPE html>
@@ -108,24 +107,34 @@ def generate_html(data):
 <style>
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 body {{
-  font-family: 'Courier New', monospace;
-  background: #0a0a0a; color: #e0e0e0;
-  max-width: 700px; margin: 0 auto; padding: 24px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #fafafa; color: #1a1a1a;
+  max-width: 720px; margin: 0 auto; padding: 24px 16px;
+  line-height: 1.6;
 }}
-header {{ margin-bottom: 40px; border-bottom: 1px solid #222; padding-bottom: 20px; }}
-h1 {{ font-size: 20px; color: #fff; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }}
-header p {{ font-size: 13px; color: #666; }}
-header .rss-link {{ color: #f90; font-size: 12px; text-decoration: none; }}
-header .rss-link:hover {{ text-decoration: underline; }}
-header .stats {{ font-size: 11px; color: #444; margin-top: 8px; }}
-article {{ padding: 16px 0; border-bottom: 1px solid #151515; }}
-article:hover {{ background: #0f0f0f; margin: 0 -8px; padding: 16px 8px; border-radius: 4px; }}
-.meta {{ font-size: 11px; color: #555; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px; }}
-.source {{ color: #666; margin-left: 8px; }}
-h2 {{ font-size: 15px; font-weight: normal; line-height: 1.4; }}
-h2 a {{ color: #ccc; text-decoration: none; }}
-h2 a:hover {{ color: #fff; }}
-.summary {{ font-size: 13px; color: #555; margin-top: 6px; line-height: 1.5; }}
+header {{ margin-bottom: 32px; padding-bottom: 20px; }}
+h1 {{ font-size: 28px; font-weight: 600; color: #1a1a1a; margin-bottom: 6px; }}
+header p {{ font-size: 15px; color: #555; margin-bottom: 16px; }}
+header .rss-link {{
+  display: inline-block; padding: 6px 16px;
+  background: #2a2a2a; color: #fff;
+  font-size: 13px; border-radius: 6px;
+  text-decoration: none; letter-spacing: 0.5px;
+}}
+header .rss-link:hover {{ background: #444; }}
+header .stats {{ font-size: 13px; color: #888; margin-top: 12px; }}
+article {{
+  padding: 20px 0 24px;
+  border-bottom: 1px solid #e8e8e8;
+  transition: background 0.15s;
+}}
+article:hover {{ background: #f5f5f5; margin: 0 -12px; padding: 20px 12px 24px; border-radius: 8px; }}
+.meta {{ font-size: 12px; color: #888; margin-bottom: 6px; }}
+.meta .source {{ color: #555; font-weight: 500; }}
+h2 {{ font-size: 17px; font-weight: 500; line-height: 1.45; }}
+h2 a {{ color: #1a1a1a; text-decoration: none; }}
+h2 a:hover {{ color: #0066cc; }}
+.summary {{ font-size: 14px; color: #555; margin-top: 8px; line-height: 1.6; }}
 </style>
 </head>
 <body>
@@ -133,7 +142,7 @@ h2 a:hover {{ color: #fff; }}
   <h1>{escape(data.get('title', 'Reading List'))}</h1>
   <p>{escape(data.get('description', ''))}</p>
   <a class="rss-link" href="/feed.xml">RSS Feed</a>
-  <div class="stats">{items_count} articles · {subs_count} subscriptions</div>
+  <div class="stats">{items_count} articles</div>
 </header>
 <main>
 {''.join(items_html)}

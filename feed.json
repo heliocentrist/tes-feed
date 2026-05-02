@@ -1,302 +1,22 @@
 {
   "title": "Yury's Reading List",
-  "description": "Articles and sources curated by Yury from foam-notes",
+  "description": "Articles and sources curated by Yury",
   "siteUrl": "https://reading.theelderscripts.com",
   "items": [
-    {
-      "title": "Inside Meta's Home Grown AI Analytics Agent",
-      "url": "https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3",
-      "summary": "Meta built an internal AI analytics agent that autonomously runs SQL queries, diagnoses metric drops, and traces root causes. Started as a hack by one data scientist, grew into a company-wide tool. The agent uses query history for context and can handle routine data analysis tasks that data scientists get asked repeatedly.",
-      "date": "Tue, 14 Apr 2026 07:04:54 +0000",
-      "source": "Analytics at Meta (Medium)",
-      "auto": false
-    },
-    {
-      "title": "Mechanical sympathy",
-      "url": "https://vickiboykis.com/2026/04/13/mechanical-sympathy/",
-      "summary": "On the connection between good engineering and good product design. Truly good engineers understand the contract between creator and user. The concept of affordances, mechanical sympathy, and why understanding how your system is used matters as much as how it works.",
-      "date": "Wed, 15 Apr 2026 16:48:00 +0000",
-      "source": "Vicki Boykis",
-      "auto": false
-    },
-    {
-      "title": "Using Claude Code: session management and 1M context",
-      "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
-      "summary": "Anthropic on managing Claude Code sessions with the new 1M context window. Covers session strategies, when to compact vs start fresh, subagent usage, and the new /usage command. Lots of variance in how users manage sessions.",
-      "date": "Thu, 16 Apr 2026 06:09:00 +0000",
-      "source": "Anthropic",
-      "auto": false
-    },
-    {
-      "title": "Why Your Agents Can't Read Enterprise Documents — and How to Fix It",
-      "url": "https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it",
-      "summary": "Databricks on why frontier AI agents break down on real enterprise documents: scanned PDFs, messy layouts, mixed formats. IDP (Intelligent Document Processing) is the critical foundation for agentic workflows. Agents handle reasoning fine but can't read the documents they need to reason about.",
-      "date": "Sat, 18 Apr 2026 18:22:00 +0000",
-      "source": "Databricks",
-      "auto": false
-    },
-    {
-      "title": "Harness engineering: leveraging Codex in an agent-first world",
-      "url": "https://openai.com/index/harness-engineering/",
-      "summary": "OpenAI built and shipped an internal product with 0 lines of manually-written code. Every line — app logic, tests, CI, docs, observability — written by Codex. Estimated 1/10th the time of hand-written code. Humans steer, agents execute.",
-      "date": "Sun, 19 Apr 2026 08:03:00 +0000",
-      "source": "OpenAI",
-      "auto": false
-    },
     {
       "title": "What Held Up at 3 AM: One Engineer's RAG Case Study",
       "url": "https://www.decodingai.com/p/ship-rag-with-weave-cli?r=4pz80&utm_medium=ios&triedRedirect=true",
       "summary": "Ship RAG with Weave CLI: Opik traces, an LLM-judge eval harness, and config-driven swaps across 11 vector databases, chunking, and agents.",
       "date": "Fri, 01 May 2026 00:00:00 +0000",
-      "source": "Foam Notes",
+      "source": "Paul Iusztin",
       "auto": false
     },
     {
-      "title": "Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation",
-      "url": "https://arxiv.org/html/2602.02007v2",
-      "summary": "Zhanghao Hu    Qinglin Zhu    Hanqi Yan    Yulan He    Lin Gui",
-      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Late interaction models: How to scale & optimize in Elasticsearch",
-      "url": "https://www.elastic.co/search-labs/blog/late-interaction-model-colpali-scale",
-      "summary": "Explore techniques to scale late interaction models like ColPali for large-scale vector search in Elasticsearch.",
-      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "ColPali & Elasticsearch: How to search complex documents",
-      "url": "https://www.elastic.co/search-labs/blog/elastiacsearch-colpali-document-search#key-takeaways-on-colpali-in-elasticsearch",
-      "summary": "Learn about ColPali and explore how to use it to search through complex documents in Elasticsearch, including tables, figures, multiple columns & more.",
-      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "How we built a virtual filesystem for our Assistant",
-      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
-      "summary": "We replaced expensive sandboxes with ChromaFs, a virtual filesystem over Chroma, to give our docs AI assistant the ability to explore documentation like a developer would.",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Company Brain: Why Most Companies Have Data But No Memory",
-      "url": "https://x.com/ashwingop/status/2049641901410955694",
-      "summary": "One of the hardest parts of any organization is institutional friction. Conversations lose context. Meetings create ambiguous follow-ups. Pe...",
-      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Database retrieval tools for context engineering",
-      "url": "https://www.elastic.co/search-labs/blog/database-retrieval-tools-context-engineering",
-      "summary": "Best practices for writing database retrieval tools for context engineering. Learn how to design and evaluate agent tools for interacting with Elasticsearch data.",
-      "date": "Tue, 07 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps",
-      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
-      "summary": "Three patterns for building on the Claude Platform that keep pace with Claude's evolving intelligence while balancing latency and cost.",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen",
-      "url": "https://weaviate.io/blog/late-interaction-overview",
-      "summary": "Late interaction allow for semantically rich interactions that enable a precise retrieval process across different modalities of unstructured data, including text and images.",
-      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Guardians of the Agents",
-      "url": "https://cacm.acm.org/practice/guardians-of-the-agents/",
-      "summary": "Agentic applications—AI systems empowered to take autonomous actions by calling external tools—are the current rage in software development. They promise efficiency, convenience, and reduced human intervention. Giving autonomous agents access to tools with potentially irreversible side effects, however, comes with significant risks. These dangers can originate from adversarial models trying to optimize their objectives literally (e.g., maximizing the number of paper clips at the expense of human",
-      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Components of A Coding Agent",
-      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent?hide_intro_popup=true",
-      "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Benchmarking AI Agent Memory: Is a Filesystem All You Need?",
-      "url": "https://www.letta.com/blog/benchmarking-ai-agent-memory",
-      "summary": "Letta Filesystem scores 74.0% of the LoCoMo benchmark by simply storing conversational histories in a file, beating out specialized memory tool libraries.",
-      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "FUSE — The Linux Kernel  documentation",
-      "url": "https://www.kernel.org/doc/html/next/filesystems/fuse.html",
-      "summary": "Userspace filesystem:",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "How LiteParse's Grid Projection Algorithm Parses PDFs",
-      "url": "https://www.llamaindex.ai/blog/how-liteparse-turns-pdfs-into-text-a-deep-dive-into-the-grid-projection-algorithm?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
-      "summary": "A deep dive into LiteParse's grid projection algorithm — how it extracts text from PDFs while preserving tables, columns, and alignment. Open source.",
-      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Metadata: the 3rd kind of retrieval",
-      "url": "https://softwaredoug.com/blog/2026/04/21/metadata-the-3rd-kind-of-retrieval",
-      "summary": "In search we talk about lexical embedding retrieval But we miss another retrieval philosophy metadata And with LLMs its never...",
-      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "A forty-year career.",
-      "url": "https://lethain.com/forty-year-career/",
-      "summary": "The Silicon Valley narrative centers on entrepreneurial protagonists who are poised one predestined step away from changing the world. A decade ago they were heroes, and more recently they’ve become villains, but either way they are absolutely the protagonists. Working within the industry, I’ve worked with quite a few non-protagonists who experience their time in technology differently: a period of obligatory toil required to pry open the gate to the American Dream.",
-      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Geometry of Forgetting: Why Brains and LLMs Fail EXACTLY the Same Way",
-      "url": "https://x.com/ashwingop/status/2042091130213560759",
-      "summary": "TL;DRMemory systems for LLMs forget EXACTLY like humans, reproducing the exact numbers from some of the most replicated experiments in clini...",
-      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Lessons from Building Claude Code: Seeing like an Agent",
-      "url": "https://x.com/trq212/status/2027463795355095314",
-      "summary": "One of the hardest parts of building an agent harness is constructing its action space.Claude acts through Tool Calling, but there are a num...",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context",
-      "url": "https://arxiv.org/html/2604.01599v1",
-      "summary": "Andy Nguyen <sup>1</sup>, Danh Doan <sup>1</sup>, Hoang Pham <sup>1</sup>, Bao Ha <sup>1</sup>, Dat Pham <sup>1</sup>, Linh Nguyen <sup>1</sup>,",
-      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Sizing engineering teams.",
-      "url": "https://lethain.com/sizing-engineering-teams/",
-      "summary": "I’ve come to believe that most organizational design questions can be answered by recursively applying a framework for sizing teams. Over the past year I’ve refined my approach to team sizing into a bit of a framework, and even changed my mind on several aspects, especially the viability of small teams. This post describes how I now size teams",
-      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Giving AI Agents the Document Understanding Layer They've Been Missing",
-      "url": "https://www.llamaindex.ai/blog/beyond-raw-text-how-llamaparse-and-liteparse-give-agents-real-document-understanding?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
-      "summary": "Most agent runtimes reduce complex documents to garbled text, degrading every downstream task. LlamaParse and LiteParse are installable agent skills that deliver structured, layout-aware, multimodal document parsing — locally or via cloud — so agents can finally reason over real enterprise documents.",
-      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Introducing Context Repositories: Git-based Memory for Coding Agents",
-      "url": "https://www.letta.com/blog/context-repositories",
-      "summary": "We're introducing Context Repositories, a rebuild of how memory works in Letta Code based on programmatic context management and git-based versioning.",
-      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Engineering Insights: Failure Modes That Break VLM-Powered OCR in Production",
-      "url": "https://www.llamaindex.ai/blog/engineering-insights-failure-modes-that-break-vlm-powered-ocr-in-production?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
-      "summary": "Two hidden LLM failure modes that break agentic document ingestion pipelines in production: repetition loops exhaust resources while recitation filters block legitimate tasks. Learn how to detect, handle, and mitigate both across OpenAI, Anthropic, and Gemini APIs.",
-      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Unsupervised document clustering with Elasticsearch + Jina embeddings",
-      "url": "https://www.elastic.co/search-labs/blog/unsupervised-document-clustering-elasticsearch-jina-embeddings",
-      "summary": "A practical, reproducible approach to unsupervised document clustering with Elasticsearch and Jina embeddings.",
-      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "A folk musician became a target for AI fakes and a copyright troll",
-      "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
-      "summary": "Murphy Campbell has an AI imposter on Spotify and troll claiming copyright of her performances of public domain ballads on YouTube.",
-      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "There Are Only 6 RAG Evals",
-      "url": "https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/",
-      "summary": "There are only 6 fundamental ways to evaluate a RAG system. Here's how to do it.",
-      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Commits · milla-jovovich/mempalace",
-      "url": "https://github.com/milla-jovovich/mempalace",
-      "summary": "The highest-scoring AI memory system ever benchmarked. And it's free. - Commits · milla-jovovich/mempalace",
-      "date": "Tue, 07 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge)",
-      "url": "https://eugeneyan.com/writing/llm-evaluators/",
-      "summary": "Use cases, techniques, alignment, finetuning, and critiques against LLM-evaluators.",
-      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Demystifying evals for AI agents",
-      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-      "summary": "Good evaluations help teams ship AI agents more confidently. Without them, it’s easy to get stuck in reactive loops—catching issues only in production, where fixing one failure creates others. Evals make problems and behavioral changes visible before they affect users, and their value compounds over the lifecycle of an agent.",
-      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Approaches to tenancy in Postgres",
-      "url": "https://planetscale.com/blog/approaches-to-tenancy-in-postgres",
-      "summary": "There are many ways to slice a Postgres database for multi-tenant applications. Let's look at the three most common approaches and the trade-offs.",
-      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "Language Models are Injectiveand Hence Invertible",
-      "url": "https://arxiv.org/html/2510.15511v4",
-      "summary": "Giorgos Nikolaou <sup>1,5,</sup> Tommaso Mencattini <sup>1,2,∗</sup> Donato Crisostomi <sup>2</sup>  Andrea Santilli <sup>2</sup>  Yannis Panagakis <sup>4,5</sup>  Emanuele Rodolà <sup>2,3</sup>",
-      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
-      "auto": false
-    },
-    {
-      "title": "The Price of Meaning: Why RAG, Knowledge Graphs, and Every Semantic Memory Will Always Fail",
-      "url": "https://x.com/ashwingop/status/2042604890988646750",
-      "summary": "TL;DRForgetting and false recall are mathematically, provably, inevitable for any memory system that organises information by meaning. Not j...",
-      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
+      "title": "Why Your Agents Can’t Read Enterprise Documents — and How to Fix It",
+      "url": "https://www.databricks.com/blog/why-frontier-agents-cant-read-documents-and-how-were-fixing-it",
+      "summary": "The best agents fail at enterprise documents: not because they can't reason, but because they can't read. We’re announcing Document Intelligence: powerful state-of-the-art research turning your unstructured enterprise documents into agent-ready data, at scale.",
+      "date": "Sun, 19 Apr 2026 00:00:00 +0000",
+      "source": "Archika Dogra, Sergei Tsarev, Erich Elsen",
       "auto": false
     },
     {
@@ -304,7 +24,271 @@
       "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
       "summary": "Our AI tooling survey finds concerns about mounting AI costs, more engineers hitting usage limits, and AI tools having uneven effects upon different types of engineers",
       "date": "Sun, 19 Apr 2026 00:00:00 +0000",
-      "source": "Foam Notes",
+      "source": "Gergely Orosz",
+      "auto": false
+    },
+    {
+      "title": "Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation",
+      "url": "https://arxiv.org/html/2602.02007v2",
+      "summary": "Zhanghao Hu    Qinglin Zhu    Hanqi Yan    Yulan He    Lin Gui",
+      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Late interaction models: How to scale & optimize in Elasticsearch",
+      "url": "https://www.elastic.co/search-labs/blog/late-interaction-model-colpali-scale",
+      "summary": "Explore techniques to scale late interaction models like ColPali for large-scale vector search in Elasticsearch.",
+      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
+      "source": "Peter Straßer, Benjamin Trent",
+      "auto": false
+    },
+    {
+      "title": "ColPali & Elasticsearch: How to search complex documents",
+      "url": "https://www.elastic.co/search-labs/blog/elastiacsearch-colpali-document-search#key-takeaways-on-colpali-in-elasticsearch",
+      "summary": "Learn about ColPali and explore how to use it to search through complex documents in Elasticsearch, including tables, figures, multiple columns & more.",
+      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
+      "source": "Peter Straßer, Benjamin Trent",
+      "auto": false
+    },
+    {
+      "title": "How we built a virtual filesystem for our Assistant",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+      "summary": "We replaced expensive sandboxes with ChromaFs, a virtual filesystem over Chroma, to give our docs AI assistant the ability to explore documentation like a developer would.",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "Dens Sumesh",
+      "auto": false
+    },
+    {
+      "title": "Company Brain: Why Most Companies Have Data But No Memory",
+      "url": "https://x.com/ashwingop/status/2049641901410955694",
+      "summary": "One of the hardest parts of any organization is institutional friction. Conversations lose context. Meetings create ambiguous follow-ups. Pe...",
+      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
+      "source": "ashwingop",
+      "auto": false
+    },
+    {
+      "title": "Database retrieval tools for context engineering",
+      "url": "https://www.elastic.co/search-labs/blog/database-retrieval-tools-context-engineering",
+      "summary": "Best practices for writing database retrieval tools for context engineering. Learn how to design and evaluate agent tools for interacting with Elasticsearch data.",
+      "date": "Tue, 07 Apr 2026 00:00:00 +0000",
+      "source": "Leonie Monigatti",
+      "auto": false
+    },
+    {
+      "title": "Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps",
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "summary": "Three patterns for building on the Claude Platform that keep pace with Claude's evolving intelligence while balancing latency and cost.",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "summary": "By Ryan Lopopolo, Member of the Technical Staff",
+      "date": "Sun, 19 Apr 2026 00:00:00 +0000",
+      "source": "Ryan Lopopolo",
+      "auto": false
+    },
+    {
+      "title": "An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen",
+      "url": "https://weaviate.io/blog/late-interaction-overview",
+      "summary": "Late interaction allow for semantically rich interactions that enable a precise retrieval process across different modalities of unstructured data, including text and images.",
+      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
+      "source": "Leonie Monigatti, Danny Williams, Victoria Slocum",
+      "auto": false
+    },
+    {
+      "title": "Guardians of the Agents",
+      "url": "https://cacm.acm.org/practice/guardians-of-the-agents/",
+      "summary": "Agentic applications—AI systems empowered to take autonomous actions by calling external tools—are the current rage in software development. They promise efficiency, convenience, and reduced human intervention. Giving autonomous agents access to tools with potentially irreversible side effects, however, comes with significant risks. These dangers can originate from adversarial models trying to optimize their objectives literally (e.g., maximizing the number of paper clips at the expense of human",
+      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
+      "source": "Erik Meijer",
+      "auto": false
+    },
+    {
+      "title": "Components of A Coding Agent",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent?hide_intro_popup=true",
+      "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "Sebastian Raschka",
+      "auto": false
+    },
+    {
+      "title": "Benchmarking AI Agent Memory: Is a Filesystem All You Need?",
+      "url": "https://www.letta.com/blog/benchmarking-ai-agent-memory",
+      "summary": "Letta Filesystem scores 74.0% of the LoCoMo benchmark by simply storing conversational histories in a file, beating out specialized memory tool libraries.",
+      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "FUSE — The Linux Kernel  documentation",
+      "url": "https://www.kernel.org/doc/html/next/filesystems/fuse.html",
+      "summary": "Userspace filesystem:",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "How LiteParse's Grid Projection Algorithm Parses PDFs",
+      "url": "https://www.llamaindex.ai/blog/how-liteparse-turns-pdfs-into-text-a-deep-dive-into-the-grid-projection-algorithm?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
+      "summary": "A deep dive into LiteParse's grid projection algorithm — how it extracts text from PDFs while preserving tables, columns, and alignment. Open source.",
+      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
+      "source": "Logan Markewich",
+      "auto": false
+    },
+    {
+      "title": "Metadata: the 3rd kind of retrieval",
+      "url": "https://softwaredoug.com/blog/2026/04/21/metadata-the-3rd-kind-of-retrieval",
+      "summary": "In search we talk about lexical embedding retrieval But we miss another retrieval philosophy metadata And with LLMs its never...",
+      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
+      "source": "Doug Turnbull",
+      "auto": false
+    },
+    {
+      "title": "A forty-year career.",
+      "url": "https://lethain.com/forty-year-career/",
+      "summary": "The Silicon Valley narrative centers on entrepreneurial protagonists who are poised one predestined step away from changing the world. A decade ago they were heroes, and more recently they’ve become villains, but either way they are absolutely the protagonists. Working within the industry, I’ve worked with quite a few non-protagonists who experience their time in technology differently: a period of obligatory toil required to pry open the gate to the American Dream.",
+      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Geometry of Forgetting: Why Brains and LLMs Fail EXACTLY the Same Way",
+      "url": "https://x.com/ashwingop/status/2042091130213560759",
+      "summary": "TL;DRMemory systems for LLMs forget EXACTLY like humans, reproducing the exact numbers from some of the most replicated experiments in clini...",
+      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
+      "source": "ashwingop",
+      "auto": false
+    },
+    {
+      "title": "Lessons from Building Claude Code: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314",
+      "summary": "One of the hardest parts of building an agent harness is constructing its action space.Claude acts through Tool Calling, but there are a num...",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "trq212",
+      "auto": false
+    },
+    {
+      "title": "Inside Meta’s Home Grown AI Analytics Agent",
+      "url": "https://medium.com/@AnalyticsAtMeta/inside-metas-home-grown-ai-analytics-agent-4ea6779acfb3",
+      "summary": "Inside Meta’s Home Grown AI Analytics Agent From Hack to Company-Wide Tool The hypothesis was simple: can an AI agent perform routine data analysis tasks autonomously? Data scientists tend to get …",
+      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
+      "source": "Analytics at Meta",
+      "auto": false
+    },
+    {
+      "title": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context",
+      "url": "https://arxiv.org/html/2604.01599v1",
+      "summary": "Andy Nguyen <sup>1</sup>, Danh Doan <sup>1</sup>, Hoang Pham <sup>1</sup>, Bao Ha <sup>1</sup>, Dat Pham <sup>1</sup>, Linh Nguyen <sup>1</sup>,",
+      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Sizing engineering teams.",
+      "url": "https://lethain.com/sizing-engineering-teams/",
+      "summary": "I’ve come to believe that most organizational design questions can be answered by recursively applying a framework for sizing teams. Over the past year I’ve refined my approach to team sizing into a bit of a framework, and even changed my mind on several aspects, especially the viability of small teams. This post describes how I now size teams",
+      "date": "Thu, 30 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Giving AI Agents the Document Understanding Layer They've Been Missing",
+      "url": "https://www.llamaindex.ai/blog/beyond-raw-text-how-llamaparse-and-liteparse-give-agents-real-document-understanding?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
+      "summary": "Most agent runtimes reduce complex documents to garbled text, degrading every downstream task. LlamaParse and LiteParse are installable agent skills that deliver structured, layout-aware, multimodal document parsing — locally or via cloud — so agents can finally reason over real enterprise documents.",
+      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
+      "source": "Clelia Astra Bertelli",
+      "auto": false
+    },
+    {
+      "title": "Introducing Context Repositories: Git-based Memory for Coding Agents",
+      "url": "https://www.letta.com/blog/context-repositories",
+      "summary": "We're introducing Context Repositories, a rebuild of how memory works in Letta Code based on programmatic context management and git-based versioning.",
+      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Engineering Insights: Failure Modes That Break VLM-Powered OCR in Production",
+      "url": "https://www.llamaindex.ai/blog/engineering-insights-failure-modes-that-break-vlm-powered-ocr-in-production?utm_medium=socials&utm_source=twitter&utm_campaign=2026-apr-",
+      "summary": "Two hidden LLM failure modes that break agentic document ingestion pipelines in production: repetition loops exhaust resources while recitation filters block legitimate tasks. Learn how to detect, handle, and mitigate both across OpenAI, Anthropic, and Gemini APIs.",
+      "date": "Fri, 10 Apr 2026 00:00:00 +0000",
+      "source": "George He",
+      "auto": false
+    },
+    {
+      "title": "Unsupervised document clustering with Elasticsearch + Jina embeddings",
+      "url": "https://www.elastic.co/search-labs/blog/unsupervised-document-clustering-elasticsearch-jina-embeddings",
+      "summary": "A practical, reproducible approach to unsupervised document clustering with Elasticsearch and Jina embeddings.",
+      "date": "Tue, 14 Apr 2026 00:00:00 +0000",
+      "source": "Matthew Adams",
+      "auto": false
+    },
+    {
+      "title": "A folk musician became a target for AI fakes and a copyright troll",
+      "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+      "summary": "Murphy Campbell has an AI imposter on Spotify and troll claiming copyright of her performances of public domain ballads on YouTube.",
+      "date": "Mon, 06 Apr 2026 00:00:00 +0000",
+      "source": "Terrence O'Brien",
+      "auto": false
+    },
+    {
+      "title": "There Are Only 6 RAG Evals",
+      "url": "https://jxnl.co/writing/2025/05/19/there-are-only-6-rag-evals/",
+      "summary": "There are only 6 fundamental ways to evaluate a RAG system. Here's how to do it.",
+      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
+      "source": "jxnl",
+      "auto": false
+    },
+    {
+      "title": "Commits · milla-jovovich/mempalace",
+      "url": "https://github.com/milla-jovovich/mempalace",
+      "summary": "The highest-scoring AI memory system ever benchmarked. And it's free. - Commits · milla-jovovich/mempalace",
+      "date": "Tue, 07 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge)",
+      "url": "https://eugeneyan.com/writing/llm-evaluators/",
+      "summary": "Use cases, techniques, alignment, finetuning, and critiques against LLM-evaluators.",
+      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
+      "source": "Eugene Yan",
+      "auto": false
+    },
+    {
+      "title": "Demystifying evals for AI agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "summary": "Good evaluations help teams ship AI agents more confidently. Without them, it’s easy to get stuck in reactive loops—catching issues only in production, where fixing one failure creates others. Evals make problems and behavioral changes visible before they affect users, and their value compounds over the lifecycle of an agent.",
+      "date": "Wed, 22 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Approaches to tenancy in Postgres",
+      "url": "https://planetscale.com/blog/approaches-to-tenancy-in-postgres",
+      "summary": "There are many ways to slice a Postgres database for multi-tenant applications. Let's look at the three most common approaches and the trade-offs.",
+      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
+      "source": "Simeon Griggs",
+      "auto": false
+    },
+    {
+      "title": "Language Models are Injectiveand Hence Invertible",
+      "url": "https://arxiv.org/html/2510.15511v4",
+      "summary": "Giorgos Nikolaou <sup>1,5,</sup> Tommaso Mencattini <sup>1,2,∗</sup> Donato Crisostomi <sup>2</sup>  Andrea Santilli <sup>2</sup>  Yannis Panagakis <sup>4,5</sup>  Emanuele Rodolà <sup>2,3</sup>",
+      "date": "Tue, 21 Apr 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "The Price of Meaning: Why RAG, Knowledge Graphs, and Every Semantic Memory Will Always Fail",
+      "url": "https://x.com/ashwingop/status/2042604890988646750",
+      "summary": "TL;DRForgetting and false recall are mathematically, provably, inevitable for any memory system that organises information by meaning. Not j...",
+      "date": "Sun, 12 Apr 2026 00:00:00 +0000",
+      "source": "ashwingop",
       "auto": false
     }
   ],
