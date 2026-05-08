@@ -290,6 +290,62 @@
       "date": "Sun, 12 Apr 2026 00:00:00 +0000",
       "source": "ashwingop",
       "auto": false
+    },
+    {
+      "title": "Company Brain, Part 2: Factual Memory",
+      "url": "https://x.com/ashwingop/status/2049885545288077720",
+      "summary": "In the first piece, I argued that a real Company Brain needs three kinds of memory: factual memory, interaction memory, and action memory. F...",
+      "date": "Sun, 03 May 2026 00:00:00 +0000",
+      "source": "Ashwin Gopinath",
+      "auto": false
+    },
+    {
+      "title": "Company Brain, Part 3: Interaction Memory",
+      "url": "https://x.com/ashwingop/article/2050963469898506342",
+      "summary": "Almost everything important in a company happens in meetings, messages, or emails.That sounds exaggerated until you start listing the actual...",
+      "date": "Sun, 03 May 2026 00:00:00 +0000",
+      "source": "Ashwin Gopinath",
+      "auto": false
+    },
+    {
+      "title": "Event-driven Programming is Usually a Poor Architecture",
+      "url": "https://dbos.dev/blog/goto-considered-harmful-2026",
+      "summary": "Postgres creator and DBOS co-founder Dr. Mike Stonebraker explains why workflow architectures are preferred over event-driven and why AI frameworks are converging on a workflow-style model and supporting durable execution.",
+      "date": "Fri, 08 May 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Fine-tuning LFM2.5-1.2B-Instruct with GRPO",
+      "url": "https://leoniemonigatti.com/blog/fine-tuning-lfm2-5-1-2b-instruct-with-grpo.html",
+      "summary": "Learn what GRPO is and how to fine-tune LFM2.5-1.2B-Instruct with GRPO and Unsloth on OCR receipt extraction for JSON.",
+      "date": "Mon, 04 May 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Implementing a virtual filesystem over Elasticsearch",
+      "url": "https://leoniemonigatti.com/blog/virtual-filesystem-elasticsearch.html",
+      "summary": "How to implement a virtual filesystem over persistent data storage, such as an Elasticsearch database, to give AI agents access to shell commands, like grep and cat.",
+      "date": "Fri, 08 May 2026 00:00:00 +0000",
+      "source": "",
+      "auto": false
+    },
+    {
+      "title": "Knowledge graph construction with Claude",
+      "url": "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide",
+      "summary": "Build knowledge graphs from unstructured text using Claude for entity extraction, relation mining, deduplication, and multi-hop graph querying.",
+      "date": "Fri, 08 May 2026 00:00:00 +0000",
+      "source": "Anthropic",
+      "auto": false
+    },
+    {
+      "title": "Why Reading PDFs is Hard",
+      "url": "https://www.llamaindex.ai/blog/why-reading-pdfs-is-hard",
+      "summary": "LlamaIndex is a simple, flexible framework for building knowledge assistants using LLMs connected to your enterprise data.",
+      "date": "Sun, 03 May 2026 00:00:00 +0000",
+      "source": "LlamaIndex",
+      "auto": false
     }
   ],
   "subscriptions": []

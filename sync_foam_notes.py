@@ -2,12 +2,42 @@
 """Scan foam-notes ingested sources and add them to feed.json"""
 
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
 
 FEED_JSON = Path(__file__).parent / "feed.json"
-FOAM_NOTES_SOURCES = Path("/home/claude/foam-notes/sources/ingested")
+
+
+def _resolve_foam_sources():
+    """Locate the foam-notes ingested sources directory.
+
+    Order of resolution:
+      1. FOAM_NOTES_SOURCES environment variable (absolute path to ingested/)
+      2. FOAM_NOTES_DIR environment variable (path to repo root; appends sources/ingested)
+      3. Common known locations (Windows dev box, Linux sandbox)
+    """
+    env_sources = os.environ.get("FOAM_NOTES_SOURCES")
+    if env_sources:
+        return Path(env_sources)
+
+    env_dir = os.environ.get("FOAM_NOTES_DIR")
+    if env_dir:
+        return Path(env_dir) / "sources" / "ingested"
+
+    candidates = [
+        Path(r"C:\Dev\Notes\TechVault\foam-notes\sources\ingested"),
+        Path("/home/claude/foam-notes/sources/ingested"),
+        Path.home() / "Dev" / "Notes" / "TechVault" / "foam-notes" / "sources" / "ingested",
+    ]
+    for c in candidates:
+        if c.exists():
+            return c
+    return candidates[0]
+
+
+FOAM_NOTES_SOURCES = _resolve_foam_sources()
 
 # Generic titles to skip when they're mixed with real author names
 GENERIC_TITLES = {"Member of the Technical Staff", "Staff Writer", "Editor", "Contributor"}

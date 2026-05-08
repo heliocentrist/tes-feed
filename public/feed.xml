@@ -4,8 +4,64 @@
     <title>Yury&#x27;s Reading List</title>
     <link>https://reading.theelderscripts.com</link>
     <description>Articles and sources curated by Yury</description>
-    <lastBuildDate>Tue, 05 May 2026 14:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 20:37:18 +0000</lastBuildDate>
     <atom:link href="https://reading.theelderscripts.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Event-driven Programming is Usually a Poor Architecture</title>
+      <link>https://dbos.dev/blog/goto-considered-harmful-2026</link>
+      <description><![CDATA[Postgres creator and DBOS co-founder Dr. Mike Stonebraker explains why workflow architectures are preferred over event-driven and why AI frameworks are converging on a workflow-style model and supporting durable execution.]]></description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://dbos.dev/blog/goto-considered-harmful-2026</guid>
+      
+    </item>
+    <item>
+      <title>Implementing a virtual filesystem over Elasticsearch</title>
+      <link>https://leoniemonigatti.com/blog/virtual-filesystem-elasticsearch.html</link>
+      <description><![CDATA[How to implement a virtual filesystem over persistent data storage, such as an Elasticsearch database, to give AI agents access to shell commands, like grep and cat.]]></description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://leoniemonigatti.com/blog/virtual-filesystem-elasticsearch.html</guid>
+      
+    </item>
+    <item>
+      <title>Knowledge graph construction with Claude</title>
+      <link>https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide</link>
+      <description><![CDATA[Build knowledge graphs from unstructured text using Claude for entity extraction, relation mining, deduplication, and multi-hop graph querying.]]></description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide</guid>
+      <source>Anthropic</source>
+    </item>
+    <item>
+      <title>Fine-tuning LFM2.5-1.2B-Instruct with GRPO</title>
+      <link>https://leoniemonigatti.com/blog/fine-tuning-lfm2-5-1-2b-instruct-with-grpo.html</link>
+      <description><![CDATA[Learn what GRPO is and how to fine-tune LFM2.5-1.2B-Instruct with GRPO and Unsloth on OCR receipt extraction for JSON.]]></description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://leoniemonigatti.com/blog/fine-tuning-lfm2-5-1-2b-instruct-with-grpo.html</guid>
+      
+    </item>
+    <item>
+      <title>Company Brain, Part 2: Factual Memory</title>
+      <link>https://x.com/ashwingop/status/2049885545288077720</link>
+      <description><![CDATA[In the first piece, I argued that a real Company Brain needs three kinds of memory: factual memory, interaction memory, and action memory. F...]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/ashwingop/status/2049885545288077720</guid>
+      <source>Ashwin Gopinath</source>
+    </item>
+    <item>
+      <title>Company Brain, Part 3: Interaction Memory</title>
+      <link>https://x.com/ashwingop/article/2050963469898506342</link>
+      <description><![CDATA[Almost everything important in a company happens in meetings, messages, or emails.That sounds exaggerated until you start listing the actual...]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/ashwingop/article/2050963469898506342</guid>
+      <source>Ashwin Gopinath</source>
+    </item>
+    <item>
+      <title>Why Reading PDFs is Hard</title>
+      <link>https://www.llamaindex.ai/blog/why-reading-pdfs-is-hard</link>
+      <description><![CDATA[LlamaIndex is a simple, flexible framework for building knowledge assistants using LLMs connected to your enterprise data.]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.llamaindex.ai/blog/why-reading-pdfs-is-hard</guid>
+      <source>LlamaIndex</source>
+    </item>
     <item>
       <title>What Held Up at 3 AM: One Engineer&#x27;s RAG Case Study</title>
       <link>https://www.decodingai.com/p/ship-rag-with-weave-cli?r=4pz80&amp;utm_medium=ios&amp;triedRedirect=true</link>
